@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+}
+
+.transform {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    list-style-type: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+h1 {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 242, 242);
+    width: 100%;
+    height: 50px;
+    text-shadow: 1px 1px 2px red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item1 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+
+}
+
+.item1>:hover {
+    transform: scale(1.2);
+}
+
+.item2 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item2>:hover {
+    transform: scale(1.2);
+}
+
+.item3 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item3>:hover {
+    transform: scale(1.2);
+}
+
+.item4 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item4>:hover {
+    transform: scale(1.2);
+}
+
+.item5 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item5>:hover {
+    transform: scale(1.2);
+}
+
+.item6 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item6>:hover {
+    transform: scale(1.2);
+}
+
+.item7 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item7>:hover {
+    transform: scale(1.2);
+}
+
+.item8 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item8>:hover {
+    transform: scale(1.2);
+}
+
+.item9 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item9>:hover {
+    transform: scale(1.2);
+}
+
+.item10 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item10>:hover {
+    transform: scale(1.2);
+}
+
+.item11 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item11>:hover {
+    transform: scale(1.2);
+}
+
+.item12 {
+    border: 2px solid white;
+    background-color: rgb(233, 249, 249);
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.item12>:hover {
+    transform: scale(1.2);
+}
+
+.box {
+    display: grid;
+    
+    height: 100%;
+    width: 100%;
+    grid-template-areas:
+        "article section section"
+        "article section section"
+        "footer footer footer";
+}
+
+.article {
+    grid-area: article;
+    height: 400px;
+    width: 400px;
+    
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    row-gap: 10px;
+
+}
+
+.section {
+    grid-area: section;
+    height: 300px;
+    
+    color: indigo;
+    border-radius: 20px;
+    background-color: rgb(199, 250, 191);
+    align-content: center;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    height: 70px;
+   
+    background-color: rgb(245, 233, 188);
+    align-content: center;
+    text-align: center;
+
+}
+.img1:hover {
+    transform: scale(1.2) ;
+    transition: 2sec ease;
+    border-radius: 20px;
+   
+}
+.img2:hover {
+    transform:rotateX(120deg) ;
+    transform: rotateY(20deg);
+    transform: skew(30deg);
+    transition: 2sec ease;
+    border-radius: 20px;
+}
+.img3:hover {
+    transform:rotateX(120deg) ;
+    transform: rotateY(20deg);
+    transform: skew(30deg);
+    transition: 2sec ease;
+    border-radius: 20px;}
+   
+.img4:hover {
+        transform: scale(1.2) ;
+        transition: 2sec ease;
+        border-radius: 20px;
+    }
+        
+.section{width: 300px;
+margin-top: 10%;
+}
+.section::first-letter{
+    font-size: 50px;
+    color: crimson;
+}
+.section:hover{ color:black;
+font-style: oblique;
+text-shadow: 1px 1px 2px red; } 
